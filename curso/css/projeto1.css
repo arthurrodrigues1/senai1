@@ -1,0 +1,76 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: darkgray;
+}
+section {
+    padding: 50px; 
+    margin: 20px; background: white; 
+    border-radius: 10px;
+}
+header, footer {
+    background: black; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+}
+h2, h3, p, .listas, a {
+    text-align: center;
+}
+img {
+    display: block; 
+    margin: auto; 
+    width: 200px; 
+    border-radius: 20px;
+}
+ol {
+    list-style: none; 
+    padding: 0;
+}
+ul{
+    list-style: none; 
+    padding: 0;
+}
+table {
+    margin: auto; 
+    background: black; 
+    width: 800px;
+}
+th {
+    padding: 10px; 
+    background: gray; 
+    color: white; 
+    border: 2px solid gray;
+}
+td {
+    padding: 10px; 
+    background: white;
+}
+a {
+    display: block; 
+    color: white; 
+    font-size: larger; 
+    font-weight: bolder; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+a:hover {
+    color: lightblue;
+}
+input, textarea {
+    margin: 10px; 
+    resize: none; 
+    width: 500px;
+}
+textarea {
+    height: 100px;
+}
+button {
+    display: block; 
+    margin: auto; 
+    padding: 5px; 
+    font-size: large; 
+    background: gray; 
+    color: white; 
+    cursor: pointer;
+}

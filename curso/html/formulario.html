@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/formulario.css">
+</head>
+<body>
+    <form action=""> 
+
+        <fieldset>
+
+            <legend>Dados pessoais</legend>
+
+            <label for="Usuario">Nome:</label>
+            <input type="text" id="user" name="user" placeholder="seu nome" max="20" min="3">
+
+            <br><br>
+
+            <label for="">Idade:</label>
+            <input type="number" min="18" max="120" required placeholder="idade">
+
+            <br><br>
+
+            <label for="">Altura</label>
+            <input type="number" id="" placeholder="Altura" max="300" min="100" required>
+
+            <br><br>
+
+            <label>Sexo:</label><br>
+            <input type="radio" id="masculino" name="sexo" value="masculino" required>
+            <label for="masculino" class="custom-radio"></label>
+            <span>Masculino</span>
+            
+            <input type="radio" id="feminino" name="sexo" value="feminino" required>
+            <label for="feminino" class="custom-radio"></label>
+            <span>Feminino</span>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Dados Empresariais</legend>
+            <label for="nome da empresa">Nome da Empresa:</label>
+            <input type="text">
+
+            <br><br>
+
+            <label for="cargo">Cargo:</label>
+
+            <select name="cargo" id="cargo">
+                <option value="" disabled>Selecione uma opcao</option>
+                <option value="">analista</option>
+                <option value="">Engenheiro</option>
+                <option value="">Cientista</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="">Descricão das atividades:</label>
+
+            <br><br>
+
+            <textarea name="" id="" rows="5" cols="50"></textarea>
+
+            <br><br>
+
+        </fieldset>
+
+        <button>enviar</button>
+
+    </form>
+</body>
+</html>

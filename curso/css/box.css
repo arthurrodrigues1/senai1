@@ -1,0 +1,9 @@
+.area {
+    height: 500px;
+    background-color: gray;
+}
+.box{
+    font-size: 3rem;
+    background-color: darkblue;
+    color: white;
+}
