@@ -1,9 +1,13 @@
-let nome =  prompt("digite seu nome")
+let num1 = parseInt(prompt("digite um numero"))
 
-let sobrenome = prompt("digite seu sobrenome")
+let num2 = parseInt(prompt("digite um numero"))
 
-let idade = parseInt(prompt("digite sua idade"))
+a = num1 + num2
 
-let sexo = prompt("digite seu sexo")
+b = num1 / num2
 
-console.log( nome, sobrenome, idade, sexo)
+c = num1 * num2
+
+d = num1 - num2
+
+console.log(a,b,c,d)
