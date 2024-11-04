@@ -1,7 +1,5 @@
-let blue = window.document.getElementsByTagName('body')
-
 while (true) {
-    let op = parseInt(prompt("Digite 0 para encerrar o programa ou 1 para soma, 2 para subtracao, 3 para multiplicacao, 4 para divisao,5blue"))
+    let op = parseInt(prompt("Digite 0 para encerrar o programa ou 1 para soma, 2 para subtracao, 3 para multiplicacao, 4 para divisao"))
     if (op === 0) {
         alert("Você decidiu encerrar o programa!")
         break
@@ -21,10 +19,7 @@ while (true) {
         let num1 = parseInt (prompt("primeiro numero"))
         let num2 = parseInt (prompt("segundo numero"))   
         alert(divisao(num1,num2))
-    } else if (op === 5) {
-        blue.style.backgroundcolor = 'green'
-    }
-        else {
+    } else {
        alert("Digite um valor válido 0 ou 1!")
     }
 }
