@@ -6,19 +6,23 @@ while (true) {
     } else if (op === 1) {
         let num1 = parseInt (prompt("primeiro numero"))
         let num2 = parseInt (prompt("segundo numero"))   
-        alert(soma(num1,num2))
+        window.document.write(soma(num1,num2))
+        window.document.write('|')
     } else if (op === 2) {
         let num1 = parseInt (prompt("primeiro numero"))
         let num2 = parseInt (prompt("segundo numero"))   
-        alert(subtracao(num1,num2))
+        window.document.write(subtracao(num1,num2))
+        window.document.write('|')
     } else if (op === 3) {
         let num1 = parseInt (prompt("primeiro numero"))
         let num2 = parseInt (prompt("segundo numero"))   
-        alert(multiplicacao(num1,num2))
+        window.document.write(multiplicacao(num1,num2))
+        window.document.write('|')
     } else if (op === 4) {
         let num1 = parseInt (prompt("primeiro numero"))
         let num2 = parseInt (prompt("segundo numero"))   
-        alert(divisao(num1,num2))
+        window.document.write(divisao(num1,num2))
+        window.document.write('|')
     } else {
        alert("Digite um valor válido 0 ou 1!")
     }
