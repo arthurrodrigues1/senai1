@@ -9,7 +9,7 @@ while (true) {
         alert(soma(num1,num2))
     } else if (op === 2) {
         let num1 = parseInt (prompt("primeiro numero"))
-        let num2 = parseInt (prompt("segundo numero"))   
+        let num2 = parseInt (prompt("segundo numero"))                                 
         alert(subtracao(num1,num2))
     } else if (op === 3) {
         let num1 = parseInt (prompt("primeiro numero"))
