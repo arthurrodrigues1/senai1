@@ -1,37 +1,28 @@
 while (true) {
-    let op = parseInt(prompt("Digite 0 para encerrar o programa ou 1 para soma, 2 para subtracao, 3 para multiplicacao, 4 para divisao"))
+    let op = parseInt(prompt("Digite 0 para sair do estoque ou 1 para listar os itens do estoque, 2 para adicionar, 3 para remover"))
+    let estoque = ["sla","sla","sla"]
     if (op === 0) {
         alert("Você decidiu encerrar o programa!")
         break
     } else if (op === 1) {
-        let num1 = parseInt (prompt("primeiro numero"))
-        let num2 = parseInt (prompt("segundo numero"))   
-        alert(soma(num1,num2))
+        alert(estoque)
     } else if (op === 2) {
-        let num1 = parseInt (prompt("primeiro numero"))
-        let num2 = parseInt (prompt("segundo numero"))   lgjçlsjdçfgljksdlfkgj                              
-        alert(subtracao(num1,num2))
+        let local = prompt ("onde voce deseja adicionar? (começo,final ou posicao?)")
+        let item = prompt("o que voce deseja adicionar?")
+        if (local === "comeco"){
+            estoque.unshift(`${item}`)
+        } else if (local === "final"){
+            estoque.push(`${item}`)
+            alert(estoque)
+        } else if (local === "posicao","posiçao","posição"){
+            alert("posicao substitui o item se ja estiver ocupado o local")
+            posicao = perseint(prompt("qual posicao voce quer?"))
+            estoque[posicao] = item
+        }
     } else if (op === 3) {
-        let num1 = parseInt (prompt("primeiro numero"))
-        let num2 = parseInt (prompt("segundo numero"))   
-        alert(multiplicacao(num1,num2))
-    } else if (op === 4) {
-        let num1 = parseInt (prompt("primeiro numero"))
-        let num2 = parseInt (prompt("segundo numero"))   
-        alert(divisao(num1,num2))
+        let local = prompt ("onde voce deseja adicionar? (começo,final ou posicao?)")
+        let item = prompt("o que voce deseja adicionar?")
     } else {
-       alert("Digite um valor válido 0 ou 1!")
+       alert("digite um valor valido")
     }
-}
-function soma(n1,n2){
-    return n1+n2
-}
-function subtracao(n1,n2){
-    return n1-n2
-}
-function multiplicacao(n1,n2){
-    return n1*n2
-}
-function divisao(n1,n2){
-    return n1/n2
 }
