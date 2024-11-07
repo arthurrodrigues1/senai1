@@ -5,6 +5,7 @@ while (true) {
         alert("Você decidiu encerrar o programa!")
         break
     } else if (op === 1) {
+<<<<<<< HEAD
         alert(estoque)
     } else if (op === 2) {
         let local = prompt ("onde voce deseja adicionar? (começo,final ou posicao?)")
@@ -22,6 +23,27 @@ while (true) {
     } else if (op === 3) {
         let local = prompt ("onde voce deseja adicionar? (começo,final ou posicao?)")
         let item = prompt("o que voce deseja adicionar?")
+=======
+        let num1 = parseInt (prompt("primeiro numero"))
+        let num2 = parseInt (prompt("segundo numero"))   
+        window.document.write(soma(num1,num2))
+        window.document.write('|')
+    } else if (op === 2) {
+        let num1 = parseInt (prompt("primeiro numero"))
+        let num2 = parseInt (prompt("segundo numero"))   
+        window.document.write(subtracao(num1,num2))
+        window.document.write('|')
+    } else if (op === 3) {
+        let num1 = parseInt (prompt("primeiro numero"))
+        let num2 = parseInt (prompt("segundo numero"))   
+        window.document.write(multiplicacao(num1,num2))
+        window.document.write('|')
+    } else if (op === 4) {
+        let num1 = parseInt (prompt("primeiro numero"))
+        let num2 = parseInt (prompt("segundo numero"))   
+        window.document.write(divisao(num1,num2))
+        window.document.write('|')
+>>>>>>> 9547af360a3803735628a2ab0cd04172b55a143a
     } else {
        alert("digite um valor valido")
     }
